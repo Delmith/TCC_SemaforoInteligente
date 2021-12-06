@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<routes>
+   <vType id="carro" vClass="passenger"/>
+   <vType id="taxi" vClass="taxi"/>
+   <vType id="caminhao" vClass="truck"/>
+   <vType id="moto" vClass="motorcycle"/>
+   <vType id="onibus" vClass="bus"/>
+
+
+   <route id="rota1" edges="gneE0 gneE1"/>
+   <route id="rota2" edges="gneE0 gneE10"/>
+   <route id="rota3" edges="gneE2 gneE8"/>
+   <route id="rota4" edges="gneE11 gneE8"/>
+   <route id="rota5" edges="gneE11 gneE1"/>
+   <route id="rota6" edges="gneE9 gneE8"/>
+   <route id="rota7" edges="gneE9 gneE1"/>
+   <route id="rota8" edges="gneE9 gneE10"/>
+
+   <flow id="flow1_rota1" begin="0" end="2400" vehsPerHour="900" type="carro" route="rota1" departSpeed="max"/>
+   <flow id="flow2_rota1" begin="0" end="2400" vehsPerHour="500" type="moto" route="rota1" departSpeed="max"/>
+   <flow id="flow3_rota1" begin="0" end="2400" vehsPerHour="50" type="caminhao" route="rota1" departSpeed="max"/>
+   <flow id="flow4_rota1" begin="0" end="2400" vehsPerHour="190" type="onibus" route="rota1" departSpeed="max"/>
+
+   <flow id="flow1_rota2" begin="0" end="2400" vehsPerHour="180" type="carro" route="rota2" departSpeed="max"/>
+   <flow id="flow2_rota2" begin="0" end="2400" vehsPerHour="50" type="moto" route="rota2" departSpeed="max"/>
+   <flow id="flow3_rota2" begin="0" end="2400" vehsPerHour="10" type="caminhao" route="rota2" departSpeed="max"/>
+
+   <flow id="flow1_rota3" begin="0" end="2400" vehsPerHour="900" type="carro" route="rota3" departSpeed="max"/>
+   <flow id="flow2_rota3" begin="0" end="2400" vehsPerHour="500" type="moto" route="rota3" departSpeed="max"/>
+   <flow id="flow3_rota3" begin="0" end="2400" vehsPerHour="50" type="caminhao" route="rota3" departSpeed="max"/>
+   <flow id="flow4_rota3" begin="0" end="2400" vehsPerHour="190" type="onibus" route="rota3" departSpeed="max"/>
+
+   <flow id="flow1_rota4" begin="0" end="2400" vehsPerHour="100" type="carro" route="rota4" departSpeed="max"/>
+   <flow id="flow2_rota4" begin="0" end="2400" vehsPerHour="20" type="moto" route="rota4" departSpeed="max"/>
+   <flow id="flow3_rota4" begin="0" end="2400" vehsPerHour="10" type="caminhao" route="rota4" departSpeed="max"/>
+
+
+   <flow id="flow1_rota5" begin="0" end="2400" vehsPerHour="100" type="carro" route="rota5" departSpeed="max"/>
+   <flow id="flow2_rota5" begin="0" end="2400" vehsPerHour="20" type="moto" route="rota5" departSpeed="max"/>
+   <flow id="flow3_rota5" begin="0" end="2400" vehsPerHour="10" type="caminhao" route="rota5" departSpeed="max"/>
+
+
+   <flow id="flow1_rota6" begin="0" end="2400" vehsPerHour="120" type="carro" route="rota6" departSpeed="max"/>
+   <flow id="flow2_rota6" begin="0" end="2400" vehsPerHour="25" type="moto" route="rota6" departSpeed="max"/>
+   <flow id="flow3_rota6" begin="0" end="2400" vehsPerHour="19" type="caminhao" route="rota6" departSpeed="max"/>
+
+   <flow id="flow1_rota7" begin="0" end="2400" vehsPerHour="140" type="carro" route="rota7" departSpeed="max"/>
+   <flow id="flow2_rota7" begin="0" end="2400" vehsPerHour="80" type="moto" route="rota7" departSpeed="max"/>
+   <flow id="flow3_rota7" begin="0" end="2400" vehsPerHour="30" type="caminhao" route="rota7" departSpeed="max"/>
+   <flow id="flow4_rota7" begin="0" end="2400" vehsPerHour="50" type="onibus" route="rota7" departSpeed="max"/>
+
+   <flow id="flow1_rota8" begin="0" end="2400" vehsPerHour="80" type="carro" route="rota8" departSpeed="max"/>
+   <flow id="flow2_rota8" begin="0" end="2400" vehsPerHour="20" type="moto" route="rota8" departSpeed="max"/>
+   <flow id="flow3_rota8" begin="0" end="2400" vehsPerHour="5" type="caminhao" route="rota8" departSpeed="max"/>
+
+</routes>

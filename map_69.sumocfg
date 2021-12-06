@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-10-12 16:09:42 by Eclipse SUMO GUI Version 1.10.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Delmith\Desktop\Faculdade\9%20Periodo\TCC\SUMO\cruzamentoBRT.net.xml"/>
+        <route-files value="C:\Users\Delmith\Desktop\Faculdade\9%20Periodo\TCC\SUMO\69\CruzamentoBRT_69.rou.xml"/>
+        <gui-settings-file value="C:\Users\Delmith\Desktop\Faculdade\9%20Periodo\TCC\SUMO\69\map.settings.cfg"/>
+    </input>
+
+    <time>
+        <end value="2400"/>
+        <step-length value="0.2"/>
+    </time>
+
+    <gui_only>
+        <tracker-interval value="0.2"/>
+    </gui_only>
+
+</configuration>
